@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Index | GreenBite — Healthy Cooking & Meal Prep</title>
+  <meta name="description" content="Quick, healthy recipes, weekly meal plans, and shopping lists for busy people."/>
+  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body class="theme-auto">
+<header class="site-header">
+  <div class="container row space-between align-center">
+    <a class="logo" href="index.html">GreenBite</a>
+    <nav id="nav" class="nav">
+      <button class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="meal-plans.html">Meal Plans</a></li>
+        <li><a href="shopping-list.html">Shopping List</a></li>
+        <li><a href="checklist.html">Checklist</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="actions"><button id="themeBtn" class="btn ghost" onclick="toggleTheme()">🌓</button></div>
+  </div>
+</header>
+<main class="container">
+<section class="hero">
+  <div class="grid2">
+    <div>
+      <h1>Eat well. Save time.</h1>
+      <p><strong>GreenBite</strong> keeps meals simple with 20‑minute recipes and batch prep ideas.</p>
+      <div class="row gap">
+        <a href="recipes.html" class="btn">See Recipes</a>
+        <a href="meal-plans.html" class="btn ghost">Weekly Plans</a>
+      </div>
+      <div class="trust row gap" style="margin-top:8px">
+        <span class="badge">Whole foods</span>
+        <span class="badge">Budget-friendly</span>
+        <span class="badge">Gluten-free options</span>
+      </div>
+    </div>
+    <div class="card stats">
+      <h3>Quick snapshot</h3>
+      <div class="row space-between">
+        <div><div class="stat">20m</div><div class="muted small">Avg. cook</div></div>
+        <div><div class="stat">5</div><div class="muted small">Ingredients</div></div>
+        <div><div class="stat">3</div><div class="muted small">Prep days</div></div>
+      </div>
+      <hr/>
+      <p class="muted small">Tip: use dark mode for late cooking sessions.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Popular right now</h2>
+  <div class="cards grid3">
+    <a class="card link" href="recipe-quick-bowls.html">
+      <h3>Quick grain bowls</h3>
+      <p>Mix-and-match bases, proteins, and sauces.</p>
+      <span class="muted small">6-minute read</span>
+    </a>
+    <a class="card link" href="recipe-sheet-pan.html">
+      <h3>Sheet-pan dinners</h3>
+      <p>One tray, zero stress, easy cleanup.</p>
+      <span class="muted small">7-minute read</span>
+    </a>
+    <a class="card link" href="recipe-smoothies.html">
+      <h3>Balanced smoothies</h3>
+      <p>Protein + fiber combos that keep you full.</p>
+      <span class="muted small">5-minute read</span>
+    </a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container row space-between align-center">
+    <p class="muted small">© 2025 GreenBite. All rights reserved.</p>
+    <p class="muted small"><a href="privacy.html">Privacy</a></p>
+  </div>
+</footer>
+</body>
+</html>

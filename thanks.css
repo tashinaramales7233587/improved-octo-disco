@@ -1,0 +1,10 @@
+
+/* thanks.css — extra styling for redirect page */
+.hero { display:flex; align-items:center; justify-content:center; min-height:60vh; }
+.card { text-align:center; padding:24px; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,.08); }
+#relayStatus { font-weight:600; margin-bottom:6px; }
+#relayNote { font-size:13px; color: var(--lightmuted); }
+.hero .row.gap { margin-top:20px; }
+#repoLink { min-width:120px; text-align:center; }
+.skip-link { position:absolute; top:-40px; left:0; background:var(--accent); color:#072616; padding:8px 14px; border-radius:8px; z-index:100; }
+.skip-link:focus { top:10px; }
